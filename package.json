@@ -1,0 +1,28 @@
+{
+  "name": "advjavascript",
+  "version": "1.0.0",
+  "description": "Advanced JavaScripts Concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushant-nayak/advjs.git"
+  },
+  "keywords": [
+    "javascript",
+    "angular",
+    "react",
+    "reactjs",
+    "vuejs",
+    "vue",
+    "typescript"
+  ],
+  "author": "Sushant Nayak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sushant-nayak/advjs/issues"
+  },
+  "homepage": "https://github.com/sushant-nayak/advjs#readme"
+}
