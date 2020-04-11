@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:imotion="http://www.imotion.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="28.1303 -32.1355 518.414 490.617" width="100%">
+    <defs id="svgEditorDefs">
+        <linearGradient gradientUnits="objectBoundingBox" id="lgrd2-peachpuff-sienna-h" spreadMethod="pad" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop offset="0%" style="stop-color:peachpuff;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:sienna;stop-opacity:1"/>
+        </linearGradient>
+        <path fill="#fae739" id="svgEditorClosePathDefs" stroke="black" style="stroke-width:1px;vector-effect:non-scaling-stroke"/>
+    </defs>
+    <rect height="500" id="svgEditorBackground" style="fill:none;stroke:none" width="500" x="60" y="0"/>
+    <path d="M134.75180744149662,128.757165737565a176.427981,176.427981,0,0,1,273.7406138397096,-74.9884944147635l-5.469968451206171,15.027508317198482l29.596702555189495,-20.434131489747273l5.816498364810457,-35.96466998025274l-9.781108177198405,10.604584435603066a241.98118,241.98118,0,0,0,-363.2796705846954,82.59726671188204Z" fill="url(&quot;#lgrd2-peachpuff-sienna-h&quot;)" id="e5_path" style="stroke-width:1px;vector-effect:non-scaling-stroke;stroke:none"/>
+    <defs>
+        <path d="M 200,200 Q 300, 174.12 400,200  C 600, 251.76 444.82,520.52 300,372.2 Q 227.59,299.54 200,200  C 145.82,0.82 455.18,0.82 400,200 Q 372.41,299.54 300,373.2  C 155.18,520.52 0,251.76 200,200  " id="motion"/>
+    </defs>
+    <g>
+        <g stroke="#222" stroke-width="30">
+            <path d="M 199,200 Q 300, 174.12 384,197  M 400,200 M 415, 205 C 600, 251.76 444.82,520.52 300,372.2 Q 227.59,299.54 205,216  M 200,200 M 197, 186 C 145.82,0.82 455.18,0.82 400,200 Q 372.41,299.54 312,361  M 300,373.2 M 290, 383.2 C 155.18,520.52 0,251.76 200,200 " fill="none" id="P" stroke="inherit" stroke-width="inherit"/>
+        </g>
+        <mask id="M">
+            <rect fill="white" height="100%" width="100%" x="0" y="0"/>
+            <path d=" M  384,184 384,216 414,216 414,184 z" fill="black" id="Bridge1" transform="rotate(15,400,200)">
+                <animate attributeName="fill" begin="1.6" calcMode="discrete" dur="10s" keyTimes="0;.7" repeatCount="indefinite" values="white;black"/>
+            </path>
+            <path d=" M  186 216 186 186 216 186 216 216 z" fill="black" id="Bridge2" transform="rotate(-15,200,200)">
+                <animate attributeName="fill" begin="5.2" calcMode="discrete" dur="10s" keyTimes="0;.5" repeatCount="indefinite" values="white;black"/>
+            </path>
+            <path d=" M  285,358 285,384 315,384 315,358 z" fill="black" id="Bridge3" transform="rotate(45,300,373.2)">
+                <animate attributeName="fill" begin="1" calcMode="discrete" dur="10s" keyTimes="0;.4" repeatCount="indefinite" values="white;black"/>
+            </path>
+        </mask>
+        <use stroke="#147" stroke-width="12" xlink:href="#Bridge1"/>
+        <use stroke="#147" stroke-width="12" xlink:href="#Bridge2"/>
+        <use stroke="#147" stroke-width="12" xlink:href="#Bridge3"/>
+        <use id="Q" stroke="#999" stroke-width="22" xlink:href="#P"/>
+        <use stroke="white" stroke-dasharray="5,13" stroke-width="2" xlink:href="#P"/>
+        <g mask="url(#M)">
+            <g>
+                <ellipse cx="7" cy="0" fill="cyan" rx="20" ry="8" stroke="blue" stroke-width="1.5"/>
+                <ellipse cx="5" cy="0" fill="#0ac" rx="14" ry="7" stroke="#421" stroke-width="1.5"/>
+                <ellipse cx="-2" cy="8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="25" cy="8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="-2" cy="-8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="25" cy="-8" fill="black" rx="4" ry="3"/>
+                <animateMotion dur="10s" fill="freeze" id="AM" repeatCount="indefinite" rotate="auto">
+                    <mpath xlink:href="#motion"/>
+                </animateMotion>
+            </g>
+        </g>
+        <g mask="url(#M)">
+            <g>
+                <ellipse cx="7" cy="0" fill="#ff0" rx="20" ry="8" stroke="red" stroke-width="1.5"/>
+                <ellipse cx="5" cy="0" fill="#ca0" rx="14" ry="7" stroke="#124" stroke-width="1.5"/>
+                <ellipse cx="-2" cy="8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="25" cy="8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="-2" cy="-8" fill="black" rx="4" ry="3"/>
+                <ellipse cx="25" cy="-8" fill="black" rx="4" ry="3"/>
+                <animateMotion begin="-2" dur="10s" fill="freeze" id="AM" repeatCount="indefinite" rotate="auto">
+                    <mpath xlink:href="#motion"/>
+                </animateMotion>
+            </g>
+        </g>
+    </g>
+    <text dx="" dy="-32pt" fill="black" id="e7_texte" imotion:select="true" style="font-family:Arial;font-size:26px;font-style:oblique;font-weight:700" x="" y="">
+        <textPath id="e6_textPath" xlink:href="#e5_path">Keep</textPath>
+    </text>
+    <text dx="" dy="-0.5em" fill="rgba(0,0,0,0.205)" id="e11_texte" imotion:select="true" style="font-family:Arial;font-size:24px;font-style:oblique" x="" y="">
+        <textPath id="e10_textPath" method="1" spacing="2" startOffset="17.1" xlink:href="#e5_path">Lambda One Limited</textPath>
+    </text>
+</svg>
