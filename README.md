@@ -16,12 +16,13 @@ npm install babel-cli@6 babel-preset-react-app@3
 For latest Babel version run - 
 npm install babel-cli babel-preset-react-app
 
-Run JSX Preprocessor
+### Run JSX Preprocessor
 (Note - npx is not a typo — it’s a package runner tool that comes with npm 5.2+.)
-npx babel --watch src --out-dir . --presets react-app/prod 
+npx babel --watch src --out-dir dist --presets react-app/prod 
 
 cd src
 touch like_button.js (Only on Mac, else create a same file manually)
 
+### Run Application on browser
 Open index.html -> Right Click and click 'Open with Live Server'
 
