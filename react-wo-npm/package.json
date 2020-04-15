@@ -1,0 +1,19 @@
+{
+  "name": "react-wo-npm",
+  "version": "1.0.0",
+  "description": "React without NPM bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "no",
+    "npm",
+    "react",
+    "seed"
+  ],
+  "author": "Sushant Nayak",
+  "license": "MIT"
+}
