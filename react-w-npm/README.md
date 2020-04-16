@@ -21,4 +21,8 @@ npm run build
 ### Start the application
 npm start
 
-Opens http://localhost:3000 to view it in the browser.
+Opens [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Running tests
+npm test
+See the section about [running tests](https://create-react-app.dev/docs/running-tests) for more information.
