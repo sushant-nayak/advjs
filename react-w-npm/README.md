@@ -13,7 +13,7 @@ cd react-w-npm
 
 ### Adding a template
 #### TypeScript
-npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest react react-dom next
 
 ### Build the application
 npm run build
@@ -24,5 +24,5 @@ npm start
 Opens [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Running tests
-npm test
+npm test 
 See the section about [running tests](https://create-react-app.dev/docs/running-tests) for more information.
