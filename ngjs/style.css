@@ -109,7 +109,9 @@ section {
     top: 130px;
     right: 70px;
 }
-.section-stream .content > div, .section-grid > div {
+.section-stream .content > div, 
+.section-grid > div,
+.section-login > div{
     background: rgba(255,255,255,0.1);
     padding: 20px;
     margin-bottom: 20px;
@@ -131,6 +133,33 @@ section {
 
 .section-grid p {
     color: var(--text-color);
+}
+
+/* Login Section */
+.section-login > div{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1px;
+    width: 25%;
+    position: absolute;
+    top: -130px;
+    right: 70px;
+}
+
+.section-login .login-block {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1px;
+}
+
+.section-login .login-block > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+}
+
+.section-login .login-block .sign{
+    width: 10px;
 }
 
 /* Footer */
