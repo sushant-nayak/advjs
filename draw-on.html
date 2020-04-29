@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/draw-on.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app ng-init="checked = false" class="wrapper">
+        <div class="group">
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" id="check" ng-class="checked ? 'checked' : ''">
+            <path fill="#fff" d="M18 32.34l-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.83-2.83z" />
+          </svg>
+          <button ng-click="checked = !checked">Toggle</button>
+          <a id="hoverOnThis">Hover on this</a>
+        </div>
+        <!--
+        <div class="group">
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" id="check-range">
+            <path style="stroke-dashoffset: {{range}}px" fill="#fff" d="M18 32.34l-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.83-2.83z" />
+          </svg>
+          <input type="range" min="0" max="100" ng-model="range" />
+          <h2>{{range}}px</h2>
+        </div>
+        -->
+      </div>
+</body>
+</html>

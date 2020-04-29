@@ -1,0 +1,37 @@
+/* CSS 3 styles and animations */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(128,128,128, 0.5);
+}
+li {
+    list-style-type: none;
+}
+a { text-decoration: none;}
+header {
+    background-color: rgb(25, 230, 140);
+}
+header img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgba(184, 52, 52, 0.3);
+}
+main {
+    background-color: rgb(34, 35, 38);
+    height: 30%;
+    overflow: hidden;
+}
+
+main img {
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid rgba(255,255,255,0.5);
+    
+}
+
+footer {
+    background-color: rgb(200, 129, 248);
+    height: 30%;
+    overflow: hidden;
+}
+
